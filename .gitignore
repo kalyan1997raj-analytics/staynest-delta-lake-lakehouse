@@ -1,0 +1,76 @@
+# ============================================================
+
+# StayNest — Databricks / PySpark / Python
+
+# ============================================================
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Databricks
+
+.databricks/
+
+# Spark / Delta local artifacts
+
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Local data files
+
+*.csv
+*.parquet
+*.json
+
+# Logs
+
+*.log
+logs/
+
+# Temporary files
+
+tmp/
+temp/
+*.tmp
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Python packaging
+
+*.egg-info/
+dist/
+build/
+
+# Environment / secrets
+
+.env
+.env.*
+!.env.example
+
+# Local configuration
+
+config.local.*
